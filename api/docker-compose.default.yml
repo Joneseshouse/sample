@@ -1,0 +1,40 @@
+version: '2'
+
+networks:
+    proxy:
+        external:
+            name: common_proxy
+
+services:
+    24horder_db:
+        container_name: 24horder_db
+        image: "postgres:10.1"
+        environment:
+            - POSTGRES_USER=docker
+            - POSTGRES_PASSWORD=docker
+            - POSTGRES_DB=docker
+        ports:
+            - "5433:5432"
+        volumes:
+            - ./dbdata:/var/lib/postgresql/data/:cached
+        networks:
+            - proxy
+
+    24horder_api:
+        container_name: 24horder_api
+        build:
+            context: ./
+        working_dir: /code
+        volumes:
+            - .:/code:cached
+            - ./custom.ini:/usr/local/etc/php/conf.d/custom.ini
+        environment:
+            - "DB_CONNECTION=pgsql"
+            - "DB_PORT=5432"
+            - "DB_HOST=24horder_db"
+            - "DB_DATABASE=docker"
+            - "DB_USERNAME=docker"
+            - "DB_PASSWORD=docker"
+        networks:
+            - proxy
+

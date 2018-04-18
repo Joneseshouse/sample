@@ -1,0 +1,22 @@
+version: '2'
+
+networks:
+    proxy:
+        external:
+            name: common_proxy
+
+services:
+    24horder_client:
+        container_name: 24horder_client
+        build:
+            context: ./
+        command: bash -c "yarn start"
+        working_dir: /code
+        ports:
+            - "4004:4004"
+        volumes:
+            - .:/code:cached
+            - /code/node_modules
+        networks:
+            - proxy
+

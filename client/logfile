@@ -1,0 +1,27 @@
+LOG:  database system was shut down at 2016-12-13 17:36:22 ICT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  must be owner of extension plpgsql
+STATEMENT:  COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+WARNING:  no privileges could be revoked for "public"
+WARNING:  no privileges could be revoked for "public"
+WARNING:  no privileges were granted for "public"
+WARNING:  no privileges were granted for "public"
+ERROR:  must be owner of extension plpgsql
+STATEMENT:  COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+WARNING:  no privileges could be revoked for "public"
+WARNING:  no privileges could be revoked for "public"
+WARNING:  no privileges were granted for "public"
+WARNING:  no privileges were granted for "public"
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system was shut down at 2017-09-24 16:46:21 +07
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down

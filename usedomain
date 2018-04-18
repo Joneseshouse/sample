@@ -1,0 +1,3 @@
+cp $1 nginx.conf
+sed -i -e 's/my\.domain/'"$2"'/g' nginx.conf
+rm -f nginx.conf-e

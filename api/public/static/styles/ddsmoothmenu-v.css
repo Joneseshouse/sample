@@ -1,0 +1,57 @@
+.ddsmoothmenu-v ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+
+}
+ 
+.ddsmoothmenu-v ul li{
+position: relative;
+}
+
+/* Top level menu links style */
+.ddsmoothmenu-v ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: white;
+text-decoration: none;
+padding: 6px 10px;
+border-bottom: 1px solid #eaeaea;
+}
+.ddsmoothmenu-v ul li:last-child a{border-bottom: 0;}
+.ddsmoothmenu-v ul li:last-child ul li a{border-bottom: 1px solid #eaeaea;}
+.ddsmoothmenu-v ul li img{
+    display: none;
+}
+.ddsmoothmenu-v ul li a:link, .ddsmoothmenu-v ul li a:visited, .ddsmoothmenu-v ul li a:active{
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+}
+.ddsmoothmenu-v ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+color: #cb1719;
+}
+
+.ddsmoothmenu-v ul li a:hover{
+color: #cb1719;
+}
+.spantop{
+    position: relative;
+}
+/*Sub level menu items */
+.ddsmoothmenu-v ul li ul{
+position: absolute;
+min-width: 230px; /*Sub Menu Items width */ 
+white-space: nowrap;
+margin-top: -1px;
+font-weight: normal;
+visibility: hidden;
+background: #fff;
+border: 1px solid #eaeaea;
+}
+
+ 
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu-v ul li { float: left; height: 1%; }
+* html .ddsmoothmenu-v ul li a { height: 1%; }
+/* End */

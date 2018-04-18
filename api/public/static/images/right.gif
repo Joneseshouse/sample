@@ -1,0 +1,610 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta charset="gbk"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="image/x-icon" href="http://test.multitemplate.com/ordertaunhanh/images/lgt.png" rel="icon">
+    <link type="image/x-icon" href="http://test.multitemplate.com/ordertaunhanh/images/lgt.png" rel="shortcut icon">
+    <meta name='keywords' content='ORDER TÀU NHANH' /> <meta name='description' content='ORDER TÀU NHANH' />    <title>
+        Lỗi không tìm thấy !    </title>
+    
+	<link rel="stylesheet" type="text/css" href="/ordertaunhanh/icon-font/css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="/ordertaunhanh/css/root/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/ordertaunhanh/css/root/pagination.css" />
+	<link rel="stylesheet" type="text/css" href="/ordertaunhanh/css/root/notive.css" />
+	<link rel="stylesheet" type="text/css" href="/ordertaunhanh/css/menu/ddsmoothmenu.css" />
+	<link rel="stylesheet" type="text/css" href="/ordertaunhanh/css/adv.css" />
+	<link rel="stylesheet" type="text/css" href="/ordertaunhanh/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/ordertaunhanh/css/reset.css" />
+
+	<script type="text/javascript" src="/ordertaunhanh/js/root/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/ordertaunhanh/js/root/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/ordertaunhanh/js/jquery.js"></script>
+	<script type="text/javascript" src="/ordertaunhanh/js/menu/ddsmoothmenu.js"></script>
+    <script type="text/javascript">
+        ddsmoothmenu.init({
+        	mainmenuid: "smoothmenu1", //menu DIV id
+        	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+        	classname: 'navhor', //class added to menu's outer DIV
+        	//customtheme: ["#1c5a80", "#18374a"],
+        	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+        })
+    </script>
+</head>
+<body>
+
+<div class="bg-head">
+    <div class="main-width position-relative">
+        <div class="row-fluid">
+            <div class="span2">
+                                    <div class="b-logo">
+                        <a href="http://test.multitemplate.com/ordertaunhanh/">
+                                                            <img src="http://test.multitemplate.com/ordertaunhanh/img/w100/logo.png" style="max-height: 85px;"/>
+                                                    </a>
+                    </div>
+                            </div>
+            <div class="span5">
+                <div class="b-search">
+                    <form method="post" action="">
+                        <div class="row-fluid">
+                            <div class="span3">
+                                <select name="" class="span12">
+                                    <option value="">Taobao.com</option>
+                                    <option value="">1688.com</option>
+                                </select>
+                            </div>
+                            <div class="span9">
+                                <input type="text" name="tukhoa" class="span12" placeholder="Nhập từ khoá tìm kiếm." />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="span5">
+                <div class="login-cart">
+    <ul class="fr-cr">
+        <li class="fr-li">
+            <div class="cart">
+                <a href="http://test.multitemplate.com/ordertaunhanh/hand-cart">
+                                        <i class="fa fa-cart-arrow-down"></i>Giỏ hàng [<b> 0 </b>] 
+                </a>
+            </div>
+        </li>
+                    <li class="fr-li">
+                <div class="padd-control">
+                    <a href="#md_quenmatkhau" data-toggle="modal"><!--<a href="http://test.multitemplate.com/ordertaunhanh/dang-nhap">-->
+                        <i class="fa fa-compass"></i> Quên mật khẩu
+                    </a>
+                </div>
+                <!-- Modal -->
+                <form class="form-horizontal" method="post" action="http://test.multitemplate.com/ordertaunhanh/quen-mat-khau">
+    <div id="md_quenmatkhau" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 class="myModalLabel">Quên mật khẩu</h3>
+        </div>
+        <div class="modal-body">
+            <div class="border-content-home padding-ct">
+                <div class="box-titlecat box-extent">
+                    <div class="box-content">
+                        <div class="box-user">
+                            <div class="row-fluid">
+                                                                <div class="control-group">
+                                    <label class="control-label">Tên đăng nhập, email: </label>
+                                    <div class="controls">
+                                        <input type="text" class="span6" name="username" placeholder="Tên đăng nhập, email" required=""/>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Captcha: </label>
+                                    <div class="controls">
+                                        <input type="text" name="captcha" id="inputPassword" class="span3" placeholder="captcha" required="" /><img id="img_CAPTCHA_RESULT_send" style="width: 130px;" src="http://test.multitemplate.com/ordertaunhanh/captcha" alt="" noloaderror="1" /><img id="reloadCaptcha" class="reloadCapcha" onmouseover="this.style.cursor='pointer'" onclick="img_reload();" title="Đổi mã an toàn" alt="renew capcha" src="http://test.multitemplate.com/ordertaunhanh/images/icon-reload.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear-main"></div>
+                    </div><!--end box-content-->
+                </div><!--end box-titlecat-->
+            </div>
+        </div>
+        <div class="modal-footer">
+            <input type="submit" class="btn btn-danger" value="Gửi xác nhận" />
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript">
+    function img_reload(){
+    	document.getElementById("img_CAPTCHA_RESULT_send").src = document.getElementById("img_CAPTCHA_RESULT_send").src.split("?")[0] + "?"+Math.random();;
+    }
+</script>                 
+            </li>
+            <li class="fr-li">
+                <div class="padd-control">
+                    <a href="#md_dangnhap" data-toggle="modal"><!--<a href="http://test.multitemplate.com/ordertaunhanh/dang-nhap">-->
+                        <i class="fa fa-lock"></i> Đăng nhập
+                    </a>
+                </div>
+                <!-- Modal -->
+                <form class="form-horizontal" method="post" action="http://test.multitemplate.com/ordertaunhanh/dang-nhap">
+    <div id="md_dangnhap" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 class="myModalLabel">Đăng nhập vào hệ thống</h3>
+        </div>
+        <div class="modal-body">
+            <div class="border-content-home padding-ct">
+                <div class="box-titlecat box-extent">
+                    <div class="box-content">
+                        <div class="box-user">
+                            <div class="row-fluid">
+                                                                
+                                    <div class="control-group">
+                                        <label class="control-label">Tên đăng nhập: </label>
+                                        <div class="controls">
+                                            <input type="text" class="span6" name="username" placeholder="Tên đăng nhập" required=""/>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Mật khẩu: </label>
+                                        <div class="controls">
+                                            <input type="password" class="span6" name="password" placeholder="Mật khẩu" required=""/>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                        <div class="clear-main"></div>
+                    </div><!--end box-content-->
+                </div><!--end box-titlecat-->
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-danger">Đăng nhập</button>
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+</form>                
+            </li>
+            <li class="fr-li">
+                <div class="padd-control">
+                    <a href="#md_dangky" data-toggle="modal"><!--<a href="http://test.multitemplate.com/ordertaunhanh/dang-ky">-->
+                        <i class="fa fa-check-circle"></i> Đăng ký
+                    </a>
+                </div>
+                <!-- Modal -->
+                <form class="form-horizontal" method="post" action="http://test.multitemplate.com/ordertaunhanh/dang-ky">
+    <div id="md_dangky" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 class="myModalLabel">Đăng ký tài khoản</h3>
+        </div>
+        <div class="modal-body">
+            <div class="border-content-home padding-ct">
+                <div class="box-titlecat box-extent">
+                    <div class="box-content">
+                        <div class="box-user">
+                            <div class="row-fluid">
+                                                                
+                                    <div class="control-group">
+                                        <label class="control-label">Tên đầy đủ</label>
+                                        <div class="controls">
+                                            <input type="text" class="span6" name="fullname" placeholder="Tên đầy đủ" />
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Tên đăng nhập</label>
+                                        <div class="controls">
+                                            <input type="text" class="span6" name="username" placeholder="Tên đăng nhập" required="" /> <span style="color: red; font-weight: bold;">*</span>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Mật khẩu</label>
+                                        <div class="controls">
+                                            <input type="password" class="span6" name="password" placeholder="Mật khẩu" required="" /> <span style="color: red; font-weight: bold;">*</span>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Nhập lại mật khẩu</label>
+                                        <div class="controls">
+                                            <input type="password" class="span6" name="repassword" placeholder="Nhập lại mật khẩu" required="" /> <span style="color: red; font-weight: bold;">*</span>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Email</label>
+                                        <div class="controls">
+                                            <input type="email" class="span6" name="email" placeholder="Email" required="" /> <span style="color: red; font-weight: bold;">*</span>
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Địa chỉ</label>
+                                        <div class="controls">
+                                            <input type="text" class="span6" name="address" placeholder="Địa chỉ" />
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Điện thoại</label>
+                                        <div class="controls">
+                                            <input type="text" class="span6" name="phone" placeholder="Điện thoại" />
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">Captcha: </label>
+                                        <div class="controls">
+                                            <input type="text" name="captcha" id="inputPassword" class="span3" placeholder="captcha" required="" /><img id="img_CAPTCHA_RESULT_send" style="width: 130px;" src="http://test.multitemplate.com/ordertaunhanh/captcha" alt="" noloaderror="1" /><img id="reloadCaptcha" class="reloadCapcha" onmouseover="this.style.cursor='pointer'" onclick="img_reload();" title="Đổi mã an toàn" alt="renew capcha" src="http://test.multitemplate.com/ordertaunhanh/images/icon-reload.png" />
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="clear-main"></div>
+                    </div><!--end box-content-->
+                </div><!--end box-titlecat-->
+            </div>
+        </div>
+        <div class="modal-footer">
+            <input type="submit" class="btn btn-danger" value="Đăng ký" />
+            <input type="reset" class="btn btn-success" value="Làm lại" />
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript">
+    function img_reload(){
+    	document.getElementById("img_CAPTCHA_RESULT_send").src = document.getElementById("img_CAPTCHA_RESULT_send").src.split("?")[0] + "?"+Math.random();;
+    }
+</script>                 
+            </li>
+            </ul>
+    <div class="clear-main"></div>
+</div>            </div>
+        </div>
+    </div>
+</div><!--end bg-head--><div id="menu-display" style="display: none;">
+    <i class="fa fa-bars" onclick="displaymenu();"></i>
+    <div class="clear-main"></div>
+    <input type="text" style="width: 0; height: 0; display: none;" id="input_tem" value="0"/>
+    <div class="menu-respon">
+        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" href="http://test.multitemplate.com/ordertaunhanh/">
+                            Trang chủ                        </a>
+                    </div>
+                    <div id="collapse1" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" href="http://test.multitemplate.com/ordertaunhanh/taobao-com">
+                            Taobao.com                        </a>
+                    </div>
+                    <div id="collapse9" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse2" title="Order hàng">
+                            Order hàng                        </a>
+                    </div>
+                    <div id="collapse2" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/chinh-sach-chung">Chính sách chung</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/dang-ky-dang-nhap">Đăng ký / Đăng nhập</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/huong-dan-dat-hang">Hướng dẫn đặt hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/tim-kiem-san-pham">Tìm kiếm sản phẩm</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/len-don-hang">Lên đơn hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/chot-don-hang">Chốt đơn hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/mua-hang">Mua hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/giao-hang">Giao hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/khieu-nai">Khiếu nại</a>
+                                </div>
+                                                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" href="http://test.multitemplate.com/ordertaunhanh/1688-com">
+                            1688.com                        </a>
+                    </div>
+                    <div id="collapse10" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" href="http://test.multitemplate.com/ordertaunhanh/alibaba-com">
+                            Alibaba.com                        </a>
+                    </div>
+                    <div id="collapse11" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse4" title="Chuyển tiền - nạp tiền">
+                            Chuyển tiền - nạp tiền                        </a>
+                    </div>
+                    <div id="collapse4" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/kiem-tra-ti-gia">Kiểm tra tỉ giá</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/lien-he-chuyen-khoan">Liên hệ chuyển khoản</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/mua-ban-te">Mua / Bán Tệ</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/thanh-toan-2">Thanh toán</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/tra-phieu">Trả phiếu</a>
+                                </div>
+                                                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse5" title="Đào tạo">
+                            Đào tạo                        </a>
+                    </div>
+                    <div id="collapse5" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/tao-tai-khoan-mua-hang">Tạo tài khoản mua hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/tao-tai-khoan-thanh-toan">Tạo tài khoản thanh toán</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/ho-tro-dam-phan">Hỗ trợ đàm phán</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/thanh-toan-3">Thanh toán</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/van-chuyen-2">Vận chuyển</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/khieu-nai-3">Khiếu nại</a>
+                                </div>
+                                                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse6" title="Dịch vụ visa - Hộ chiếu">
+                            Dịch vụ visa - Hộ chiếu                        </a>
+                    </div>
+                    <div id="collapse6" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/huong-dan-lam-ho-chieu">Hướng dẫn làm hộ chiếu</a>
+                                </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/tim-hieu-ve-ho-chieu">Tìm hiểu về hộ chiếu</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/phan-loai-ho-chieu">Phân loại hộ chiếu</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-lam-ho-chieu">Thủ tục làm hộ chiếu</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/noi-nop-tra-ho-chieu">Nơi nộp, trả hộ chiếu</a>
+                                    </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/dong-visa">Đóng visa</a>
+                                </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/tim-hieu-ve-visa-trung-quoc-2">Tìm hiểu về Visa Trung quốc</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/visa-cong-tac-trung-quoc-2">Visa công tác Trung Quốc</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/visa-danh-hang-quang-chau-2">Visa đánh hàng Quảng Châu</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/visa-xac-thuc-tai-khoan-mua-hang-2">Visa xác thực tài khoản mua hàng</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/visa-du-lich-trung-quoc-2">Visa du lịch Trung Quốc</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/visa-di-lam-trung-quoc-2">Visa đi làm Trung Quốc</a>
+                                    </div>
+                                                                    <div class="menu-cap2 menu-cap3">
+                                        <a href="http://test.multitemplate.com/ordertaunhanh/visa-du-hoc-trung-quoc-2">Visa du học Trung Quốc</a>
+                                    </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/dich-vu-ve-may-bay">Dịch vụ vé máy bay</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/dich-vu-phien-dich">Dịch vụ phiên dịch</a>
+                                </div>
+                                                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse175" title="Vận chuyển">
+                            Vận chuyển                        </a>
+                    </div>
+                    <div id="collapse175" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/tao-ma-khach-hang">Tạo mã Khách Hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/dich-vu-chuyen-phat">Dịch Vụ Chuyển Phát</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/giao-hang-2">Giao Hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/thanh-toan">Thanh toán</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/khieu-nai-2">Khiếu nại</a>
+                                </div>
+                                                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse7" title="Nhập hàng chính nghạch">
+                            Nhập hàng chính nghạch                        </a>
+                    </div>
+                    <div id="collapse7" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/tim-nguon-hang">Tìm nguồn hàng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/dam-phan">Đàm phán</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/ky-hop-dong">Ký hợp đồng</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/thanh-toan-4">Thanh toán</a>
+                                </div>
+                                                                                            <div class="menu-cap2">
+                                    <a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-thong-quan">Thủ tục thông quan</a>
+                                </div>
+                                                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                            <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" href="http://test.multitemplate.com/ordertaunhanh/lien-he">
+                            Liên hệ                        </a>
+                    </div>
+                    <div id="collapse8" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                                                    </div>
+                    </div>
+                </div><!--end accordion-group-->
+                    </div>
+    </div><!--end menu-respon-->
+</div><!--end menu-display-->
+
+<div class="bg-menu anmenu">
+    <div class="main-width">
+        <div id="smoothmenu1" class="navhor">
+            <ul><li><a class="parent1" href="http://test.multitemplate.com/ordertaunhanh/" title="Trang chủ">Trang chủ</a></li><li><a class="parent1" href="http://test.multitemplate.com/ordertaunhanh/order-hang" title="Order hàng">Order hàng</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/chinh-sach-chung" title="Chính sách chung">Chính sách chung</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/dang-ky-dang-nhap" title="Đăng ký / Đăng nhập">Đăng ký / Đăng nhập</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/huong-dan-dat-hang" title="Hướng dẫn đặt hàng">Hướng dẫn đặt hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/tim-kiem-san-pham" title="Tìm kiếm sản phẩm">Tìm kiếm sản phẩm</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/len-don-hang" title="Lên đơn hàng">Lên đơn hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/chot-don-hang" title="Chốt đơn hàng">Chốt đơn hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/mua-hang" title="Mua hàng">Mua hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/giao-hang" title="Giao hàng">Giao hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/khieu-nai" title="Khiếu nại">Khiếu nại</a></li></ul></li><li><a class="parent1" href="http://test.multitemplate.com/ordertaunhanh/chuyen-tien-nap-tien" title="Chuyển tiền - nạp tiền">Chuyển tiền - nạp tiền</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/kiem-tra-ti-gia" title="Kiểm tra tỉ giá">Kiểm tra tỉ giá</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/lien-he-chuyen-khoan" title="Liên hệ chuyển khoản">Liên hệ chuyển khoản</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/mua-ban-te" title="Mua / Bán Tệ">Mua / Bán Tệ</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thanh-toan-2" title="Thanh toán">Thanh toán</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/tra-phieu" title="Trả phiếu">Trả phiếu</a></li></ul></li><li><a class="parent1" href="http://test.multitemplate.com/ordertaunhanh/dao-tao" title="Đào tạo">Đào tạo</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/tao-tai-khoan-mua-hang" title="Tạo tài khoản mua hàng">Tạo tài khoản mua hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/tao-tai-khoan-thanh-toan" title="Tạo tài khoản thanh toán">Tạo tài khoản thanh toán</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/ho-tro-dam-phan" title="Hỗ trợ đàm phán">Hỗ trợ đàm phán</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thanh-toan-3" title="Thanh toán">Thanh toán</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/van-chuyen-2" title="Vận chuyển">Vận chuyển</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/khieu-nai-3" title="Khiếu nại">Khiếu nại</a></li></ul></li><li><a class="parent1" href="http://test.multitemplate.com/ordertaunhanh/dich-vu-visa-ho-chieu" title="Dịch vụ visa - Hộ chiếu">Dịch vụ visa - Hộ chiếu</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/huong-dan-lam-ho-chieu" title="Hướng dẫn làm hộ chiếu">Hướng dẫn làm hộ chiếu</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/tim-hieu-ve-ho-chieu" title="Tìm hiểu về hộ chiếu">Tìm hiểu về hộ chiếu</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/phan-loai-ho-chieu" title="Phân loại hộ chiếu">Phân loại hộ chiếu</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-lam-ho-chieu" title="Thủ tục làm hộ chiếu">Thủ tục làm hộ chiếu</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/noi-nop-tra-ho-chieu" title="Nơi nộp, trả hộ chiếu">Nơi nộp, trả hộ chiếu</a></li></ul></li><li><a href="http://test.multitemplate.com/ordertaunhanh/dong-visa" title="Đóng visa">Đóng visa</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/tim-hieu-ve-visa-trung-quoc-2" title="Tìm hiểu về Visa Trung quốc">Tìm hiểu về Visa Trung quốc</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/khai-niem" title="Khái niệm">Khái niệm</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/phan-loai" title="Phân loại ">Phân loại </a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/muc-dich-su-dung" title="Mục đích sử dụng ">Mục đích sử dụng </a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-visa-trung-quoc" title="Thủ tục visa Trung Quốc">Thủ tục visa Trung Quốc</a></li></ul></li><li><a href="http://test.multitemplate.com/ordertaunhanh/visa-cong-tac-trung-quoc-2" title="Visa công tác Trung Quốc">Visa công tác Trung Quốc</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-dong-visa-7" title="Thủ tục đóng visa">Thủ tục đóng visa</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/luu-y-2" title="Lưu ý ">Lưu ý </a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/cac-dieu-can-biet" title="Các điều cần biết">Các điều cần biết</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/dsq-viet-nam-tai-trung-quoc" title="ĐSQ Việt Nam tại Trung Quốc">ĐSQ Việt Nam tại Trung Quốc</a></li></ul></li><li><a href="http://test.multitemplate.com/ordertaunhanh/visa-danh-hang-quang-chau-2" title="Visa đánh hàng Quảng Châu">Visa đánh hàng Quảng Châu</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-dong-visa" title="Thủ tục đóng visa">Thủ tục đóng visa</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/hanh-trinh-danh-hang" title="Hành trình đánh hàng">Hành trình đánh hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/cac-dia-diem-mua-sam" title="Các địa điểm mua sắm">Các địa điểm mua sắm</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/nhung-luu-y" title="Những lưu ý ">Những lưu ý </a></li></ul></li><li><a href="http://test.multitemplate.com/ordertaunhanh/visa-xac-thuc-tai-khoan-mua-hang-2" title="Visa xác thực tài khoản mua hàng">Visa xác thực tài khoản mua hàng</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-dong-visa-3" title="Thủ tục đóng visa">Thủ tục đóng visa</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/tac-dung" title="Tác dụng">Tác dụng</a></li></ul></li><li><a href="http://test.multitemplate.com/ordertaunhanh/visa-du-lich-trung-quoc-2" title="Visa du lịch Trung Quốc">Visa du lịch Trung Quốc</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-dong-visa-4" title="Thủ tục đóng visa">Thủ tục đóng visa</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-tai-san-bay" title="Thủ tục tại sân bay">Thủ tục tại sân bay</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-bac-kinh" title="Du lịch Bắc kinh">Du lịch Bắc kinh</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-thuong-hai" title="Du lịch Thượng Hải">Du lịch Thượng Hải</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-quang-chau" title="Du lịch Quảng Châu">Du lịch Quảng Châu</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-tham-quyen" title="Du lịch Thâm Quyến">Du lịch Thâm Quyến</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-hang-chau" title="Du lịch Hàng Châu ">Du lịch Hàng Châu </a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-to-chau" title="Du lịch Tô Châu">Du lịch Tô Châu</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-nam-ninh" title="Du lịch Nam Ninh">Du lịch Nam Ninh</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-thanh-do" title="Du lịch Thành Đô">Du lịch Thành Đô</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-que-lam" title="Du lịch Quế Lâm">Du lịch Quế Lâm</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/du-lich-tay-an" title="Du lịch Tây An">Du lịch Tây An</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thoi-diem-du-lich" title="Thời điểm du lịch">Thời điểm du lịch</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/luu-y" title="Lưu ý">Lưu ý</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/am-thuc-trung-hoa" title="Ẩm thực Trung Hoa">Ẩm thực Trung Hoa</a></li></ul></li><li><a href="http://test.multitemplate.com/ordertaunhanh/visa-di-lam-trung-quoc-2" title="Visa đi làm Trung Quốc">Visa đi làm Trung Quốc</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-dong-visa-6" title="Thủ tục đóng visa">Thủ tục đóng visa</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/lao-dong-tai-trung-quoc" title="Lao động tại Trung Quốc">Lao động tại Trung Quốc</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/ly-do-phai-co-visa" title="Lý do phải có visa">Lý do phải có visa</a></li></ul></li><li><a href="http://test.multitemplate.com/ordertaunhanh/visa-du-hoc-trung-quoc-2" title="Visa du học Trung Quốc">Visa du học Trung Quốc</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-dong-visa-5" title="Thủ tục đóng visa ">Thủ tục đóng visa </a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/ly-do-nen-chon-trung-quoc" title="Lý do nên chọn Trung Quốc">Lý do nên chọn Trung Quốc</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/chu-y" title="Chú ý">Chú ý</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/nhung-dieu-can-biet" title="Những điều cần biết">Những điều cần biết</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/chuan-bi" title="Chuẩn bị">Chuẩn bị</a></li></ul></li></ul></li><li><a href="http://test.multitemplate.com/ordertaunhanh/dich-vu-ve-may-bay" title="Dịch vụ vé máy bay">Dịch vụ vé máy bay</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/dich-vu-phien-dich" title="Dịch vụ phiên dịch">Dịch vụ phiên dịch</a></li></ul></li><li><a class="parent1" href="http://test.multitemplate.com/ordertaunhanh/van-chuyen" title="Vận chuyển">Vận chuyển</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/tao-ma-khach-hang" title="Tạo mã Khách Hàng">Tạo mã Khách Hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/dich-vu-chuyen-phat" title="Dịch Vụ Chuyển Phát">Dịch Vụ Chuyển Phát</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/giao-hang-2" title="Giao Hàng">Giao Hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thanh-toan" title="Thanh toán">Thanh toán</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/khieu-nai-2" title="Khiếu nại">Khiếu nại</a></li></ul></li><li><a class="parent1" href="http://test.multitemplate.com/ordertaunhanh/nhap-hang-chinh-nghach" title="Nhập hàng chính nghạch">Nhập hàng chính nghạch</a><ul><li><a href="http://test.multitemplate.com/ordertaunhanh/tim-nguon-hang" title="Tìm nguồn hàng">Tìm nguồn hàng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/dam-phan" title="Đàm phán">Đàm phán</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/ky-hop-dong" title="Ký hợp đồng">Ký hợp đồng</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thanh-toan-4" title="Thanh toán">Thanh toán</a></li><li><a href="http://test.multitemplate.com/ordertaunhanh/thu-tuc-thong-quan" title="Thủ tục thông quan">Thủ tục thông quan</a></li></ul></li><li><a class="parent1" href="http://test.multitemplate.com/ordertaunhanh/lien-he" title="Liên hệ">Liên hệ</a></li></ul>        </div>
+    </div>
+    <div class="clear-main"></div>
+</div>
+
+<script type="text/javascript">
+    function displaymenu(){
+        var temp = document.getElementById('input_tem').value;
+        if(temp == '0'){
+            $('#input_tem').val('1');
+            $('.menu-respon').addClass('menu-respon-active');
+        }else{
+            $('.menu-respon').removeClass('menu-respon-active');
+            $('#input_tem').val('0');    
+        }
+    }
+</script><div class="main-content">
+    <div class="clear-main"></div>
+    <div class="row-fluid">
+    <div class="thong-bao-err">
+        <label>Không tìm thấy đường link này !</label>
+        <label>
+            <a href="http://test.multitemplate.com/ordertaunhanh/">Click vào đây về trang chủ</a>
+        </label>
+    </div>
+</div>    <div class="clear-main"></div>
+    <div class="bg-footer">
+    <div class="main-width">
+        <div class="row-fluid">
+            <div class="span4">
+                <div class="title-footer">Thông tin liên hệ</div>
+                <div class="bg-ct-footer">
+                    <strong>Văn ph&ograve;ng:</strong> Số 8 ng&otilde; 162 Nguyễn Văn Cừ, Bồ Đề, Long Bi&ecirc;n, HN<br />
+<strong>Mr. Qu&acirc;n: 0963.226.326</strong> Zalo,Facebook<br />
+​<strong>Email:</strong> ordertaunhanh@gmail.com                    <div class="clear-main"></div>
+                </div>
+            </div>
+            <div class="span4">
+                <div class="title-footer">Thông tin tài khoản</div>
+                <div class="bg-ct-footer">
+                                        <div class="clear-main"></div>
+                </div>
+            </div>
+            <div class="span4">
+                <div class="bandoft">
+                    <iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29793.996973529247!2d105.81945410109321!3d21.02269575409389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBIb8OgbiBLaeG6v20sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1456991419208" style="border:0" width="600"></iframe>                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear-main"></div>
+</div>
+<style type="text/css">
+    .fix-icon-right{
+        position: fixed;
+        right: 10px;
+        bottom: 35px;
+        display: none;
+        z-index: 9999999;
+    }
+    .fix-icon-right img{
+        margin-bottom: 5px;
+    }
+</style>
+
+<div class="fix-icon-right" id="fixedmenu">
+    <div class="row-fluid">
+        <ul class="unstyled">
+            <li>
+                <a href="" title="Top"><img src="http://test.multitemplate.com/ordertaunhanh/images/gotop.gif" class="scrollup" alt="Top" title="Top"/></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).scroll(function(){
+        var curPos = $(document).scrollTop();
+        if(curPos >= 350) {
+            $('#fixedmenu').show(10);
+        } else {
+            $('#fixedmenu').hide(10);
+        }
+    });
+    $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+</script></div><!--end main-content-->
+</body>
+</html>

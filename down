@@ -1,0 +1,8 @@
+arg1=${1:-dev}
+# docker-compose -f ../../docker/nginx/docker-compose.yml down
+docker-compose -f api/docker-compose.yml down
+if [ $arg1 = "dev" ]; then
+    docker-compose -f client/docker-compose.yml down
+fi
+rm -f ../../docker/nginx/conf.d/24horder.conf
+docker-compose -f ../../docker/nginx/docker-compose.yml restart

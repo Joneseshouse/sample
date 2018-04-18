@@ -1,0 +1,2 @@
+cp /etc/letsencrypt/live/24horder.try0.info/privkey.pem ~/docker/nginx/ssl/24horder/
+cp /etc/letsencrypt/live/24horder.try0.info/fullchain.pem ~/docker/nginx/ssl/24horder/

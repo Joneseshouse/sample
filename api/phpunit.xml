@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="bootstrap/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="true">
+    <testsuites>
+        <testsuite name="Feature Tests">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+
+        <testsuite name="Unit Tests">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./app</directory>
+            <exclude>
+                <file>./app/Modules/Address/routes.php</file>
+                <file>./app/Modules/Admin/routes.php</file>
+                <file>./app/Modules/AdminTransaction/routes.php</file>
+                <file>./app/Modules/AreaCode/routes.php</file>
+                <file>./app/Modules/Article/routes.php</file>
+                <file>./app/Modules/Atoken/routes.php</file>
+                <file>./app/Modules/Attach/routes.php</file>
+                <file>./app/Modules/Backend/routes.php</file>
+                <file>./app/Modules/Bank/routes.php</file>
+                <file>./app/Modules/Banner/routes.php</file>
+                <file>./app/Modules/BillOfLanding/routes.php</file>
+                <file>./app/Modules/BolDaily/routes.php</file>
+                <file>./app/Modules/BolReport/routes.php</file>
+                <file>./app/Modules/CartItem/routes.php</file>
+                <file>./app/Modules/Category/routes.php</file>
+                <file>./app/Modules/ChatLost/routes.php</file>
+                <file>./app/Modules/CheckBill/routes.php</file>
+                <file>./app/Modules/CnBillOfLanding/routes.php</file>
+                <file>./app/Modules/CnBillOfLandingFail/routes.php</file>
+                <file>./app/Modules/CollectBol/routes.php</file>
+                <file>./app/Modules/Config/routes.php</file>
+                <file>./app/Modules/Contact/routes.php</file>
+                <file>./app/Modules/Dropdown/routes.php</file>
+                <file>./app/Modules/ExportBill/routes.php</file>
+                <file>./app/Modules/ExportBillDaily/routes.php</file>
+                <file>./app/Modules/Landing/routes.php</file>
+                <file>./app/Modules/LogingFailed/routes.php</file>
+                <file>./app/Modules/Lost/routes.php</file>
+                <file>./app/Modules/Order/routes.php</file>
+                <file>./app/Modules/OrderItem/routes.php</file>
+                <file>./app/Modules/Permission/routes.php</file>
+                <file>./app/Modules/Purchase/routes.php</file>
+                <file>./app/Modules/RateLog/routes.php</file>
+                <file>./app/Modules/Receipt/routes.php</file>
+                <file>./app/Modules/Role/routes.php</file>
+                <file>./app/Modules/RoleType/routes.php</file>
+                <file>./app/Modules/Shop/routes.php</file>
+                <file>./app/Modules/User/routes.php</file>
+                <file>./app/Modules/UserAccounting/routes.php</file>
+                <file>./app/Modules/UserOrderLog/routes.php</file>
+                <file>./app/Modules/UserTransaction/routes.php</file>
+                <file>./app/Modules/VnBillOfLanding/routes.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_DRIVER" value="sync"/>
+    </php>
+    <!--
+    <logging>
+        <log
+            type="coverage-html"
+            target="./public/static/test"
+            charset="UTF-8"
+            yui="true"
+            highlight="true"
+            lowUpperBound="50"
+            highLowerBound="80"/>
+    </logging>
+    -->
+</phpunit>

@@ -1,0 +1,14 @@
+FROM php:7.0.17-fpm
+
+RUN apt-get update && apt-get install -y libmcrypt-dev libpq-dev libbz2-dev libldap2-dev libxslt1-dev \
+    libmagickwand-dev --no-install-recommends \
+    && pecl install imagick \
+    && docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
+    && docker-php-ext-install bz2 mcrypt pdo pdo_pgsql pgsql gd pcntl xsl zip exif \
+    && docker-php-ext-enable imagick
+# RUN curl --silent --show-error https://getcomposer.org/installer | php
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN composer --version
+RUN mkdir /code
+RUN mkdir /backupdb
+

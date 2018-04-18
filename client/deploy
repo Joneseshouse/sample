@@ -1,0 +1,1 @@
+docker exec -i 24horder_client /code/node_modules/.bin/webpack && scp -r build/* tbson@24horder_server:/home/tbson/nginx/24horder_api/public/clients/source/

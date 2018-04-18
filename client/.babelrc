@@ -1,0 +1,25 @@
+{
+	"plugins": [
+		"syntax-dynamic-import",
+		"transform-decorators-legacy",
+		[
+			"transform-runtime", {
+				"polyfill": false,
+				"regenerator": true
+			}
+		]
+	],
+	"presets": [
+		"env",
+		"react",
+		"stage-2"
+	],
+	"env": {
+		"start": {
+			"presets": [
+				"react-hmre"
+			]
+		}
+	}
+}
+

@@ -1,0 +1,129 @@
+.navhor{
+width: 100%;
+}
+
+.navhor ul{
+z-index:100;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.navhor ul li{
+position: relative;
+display: inline;
+float: left;
+border-right: 1px solid #fff;
+}
+.navhor ul li:last-child, .navhor ul li li{
+    border-right: 0;
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url('../font/OpenSans-Regular.ttf') format('truetype');
+}
+/*Top level menu link items style*/
+.navhor ul li a{
+display: block;
+padding: 11px 13px;
+text-decoration: none;
+font-size: 13px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.navhor ul li i{margin-left: 6px;}
+.navhor ul li li a{
+    text-transform: none;
+}
+* html .navhor ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.navhor ul li a:link, .navhor ul li a:visited{
+color: #fff;
+}
+
+.navhor ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+color: #fff;
+background: #a90608;
+}
+
+.navhor ul li a:hover{
+color: #fff;
+background: #a90608;
+}
+
+.navhor ul li ul li a:link, .navhor ul li ul li a:visited{
+color: #fff;
+}
+
+.navhor ul li ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+color: #fff;
+background: #cb1719;
+}
+
+.navhor ul li ul li a:hover{
+color: #fff;
+background: #cb1719;
+}
+	
+/*1st sub level menu*/
+.navhor ul li ul{
+position: absolute;
+margin-left: -1px;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.navhor ul li ul li{
+display: list-item;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.navhor ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.navhor ul li ul li a{
+min-width: 180px; /*width of sub menus*/ 
+white-space: nowrap;
+padding: 5px;
+margin: 0;
+margin-left: 1px;
+border-top-width: 0;
+border-bottom: 1px solid #cb1719;
+background: #a90608;
+}
+
+/* Holly Hack for IE \*/
+* html .navhor{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+display:none;
+}
+
+.rightarrowclass{
+display:none;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+opacity: 0.8;
+}

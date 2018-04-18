@@ -1,0 +1,11 @@
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 1112) running in data directory "/Users/tranbacson/.postgres"?
+LOG:  database system was interrupted; last known up at 2017-05-12 05:57:48 ICT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/2AF6C130: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  column "address_id" of relation "export_bills" does not exist at character 46
+STATEMENT:  update "export_bills" set "updated_at" = $1, "address_id" = $2 where "id" = $3
